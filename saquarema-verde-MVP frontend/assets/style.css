@@ -88,3 +88,19 @@ body {
   .menu--aberto { display: flex; }
   .busca { flex-direction: column; }
 }
+
+.mensagem--erro { background: #ffcdd2; color: #b71c1c; }
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+/* Painel administrativo */
+.adm-cabecalho { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.tabela-container { overflow-x: auto; }
+.tabela { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.tabela th, .tabela td { text-align: left; padding: 0.6rem 0.8rem; border-bottom: 1px solid #e0e0e0; vertical-align: middle; }
+.tabela th { background: var(--verde-claro); color: var(--verde-escuro); }
+.tabela input, .tabela select { width: 100%; padding: 0.4rem 0.5rem; border: 1px solid #bdbdbd; border-radius: 8px; font-size: 0.95rem; }
+.adm-acoes { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.btn--pequeno { padding: 0.35rem 0.8rem; font-size: 0.9rem; }
+.btn--perigo { background: var(--perigo); }
+.btn--perigo:hover { background: #8e0000; }
+.mensagem:not(.mensagem--visivel) { display: none; }

@@ -23,3 +23,11 @@ Prototipo navegável criado no **Figma** (insira aqui o link público do projeto
 
 ## Como o protótipo foi validado
 Teste de navegação entre as 3 telas e fluxos de busca e publicação de relato com 3 usuários, com ajustes de contraste e tamanho de toque nos botões.
+
+### Tela 4 (extra) — Administração
+- Formulário de **login** (e-mail + senha) com mensagens de erro;
+- **Painel do administrador** após o login com:
+  - Tabela de disponibilidade das trilhas (condição: Aberta/Manutenção/Fechada + horários) com botão Salvar por atração;
+  - Formulário de **eventos** (criar e editar) + tabela de eventos futuros com ações Editar/Excluir;
+  - Formulário de **novidades** + últimas publicadas;
+  - Botão Sair (encerra a sessão).

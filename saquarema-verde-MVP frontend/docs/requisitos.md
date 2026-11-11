@@ -28,7 +28,7 @@
 | RNF07 | O repositório deve estar versionado no GitHub com README informativo | Organização |
 | RNF08 | O sistema deve carregar a primeira tela em menos de 3 segundos em conexão comum | Desempenho |
 | RNF09 | O sistema deve exibir mensagens amigáveis para estados vazios (ex.: busca sem resultados) | Usabilidade |
-| RNF10 | No MVP, os dados são mockados no front-end, sem persistência em banco de dados (registrado como limitação) | Escopo |
+| RNF10 | O front-end é compatível com a API REST padronizada (JSON, códigos HTTP) | Integração |
 
 ## 🔀 Requisitos fora do escopo do MVP (evoluções futuras)
 - Back-end com API REST e banco de dados;
